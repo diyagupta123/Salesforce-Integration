@@ -27,7 +27,7 @@ conn.login(SF_USERNAME,SF_PASSWORD+SF_TOKEN,(err,userInfo)=>{
 //first API
 app.get('/', (req,res)=>{
    
-    res.sendFile(path.join(__dirname,'h.html'))
+    res.sendFile(path.join(__dirname,'index.html'))
     // res.send('JSForce Connect Successed!');
 
     // res.send("Salesforce integration with nodejs")
